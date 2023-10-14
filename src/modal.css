@@ -1,0 +1,60 @@
+.custom-modal {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.custom-modal-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+.close-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.close-button:hover {
+  background-color: #ff3333;
+}
+
+.receipt-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.receipt-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.receipt-field span:first-child {
+  font-weight: bold;
+  width: 250px; 
+}
+.overflow-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px; 
+}
